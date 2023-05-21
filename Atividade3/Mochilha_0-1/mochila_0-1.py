@@ -1,4 +1,4 @@
-from genetic2020 import *
+from genetic import *
 
                   #[peso,valor]
 pesos_e_valores = [[3, 266], 
