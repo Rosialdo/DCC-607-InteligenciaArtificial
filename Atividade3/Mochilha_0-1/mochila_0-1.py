@@ -1,3 +1,10 @@
+"""
+    Nome: Rosialdo Vicente
+    N° de matrícula: 2020018122
+    Atividade: Atividade 03 - Mochila 0-1
+    Disciplina: DCC 607 Inteligência Artificial
+"""
+
 from genetic import *
 
 # Definição dos pesos e valores dos itens
@@ -56,3 +63,9 @@ plt.title("Problema da mochila")
 plt.xlabel("Geração")
 plt.ylabel("Valor médio da mochila")
 plt.show()
+
+
+
+"""
+    Referência principal: https://github.com/FredericoBender/Algoritmo-Genetico-Problema-da-Mochila/tree/main
+"""

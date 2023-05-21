@@ -1,3 +1,10 @@
+"""
+    Nome: Rosialdo Vicente
+    N° de matrícula: 2020018122
+    Atividade: Atividade 03 - N Rainhas
+    Disciplina: DCC 607 Inteligência Artificial
+"""
+
 import random
 import matplotlib.pyplot as plt
 
@@ -108,3 +115,9 @@ while True:
     else:
         print("Melhor Solução: ", current_generation[0])
     epoch += 1
+
+
+
+"""
+    Referência principal: https://github.com/RaminSaljoughinejad/Python-3.0-Course/blob/master
+"""

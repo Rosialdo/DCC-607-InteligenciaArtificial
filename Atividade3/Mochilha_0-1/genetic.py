@@ -1,3 +1,10 @@
+"""
+    Nome: Rosialdo Vicente
+    N° de matrícula: 2020018122
+    Atividade: Atividade 03 - Mochila 0-1
+    Disciplina: DCC 607 Inteligência Artificial
+"""
+
 from random import getrandbits, randint, random
 
 def individual(n_de_itens):
@@ -79,3 +86,8 @@ def evolve(populacao, peso_maximo, pesos_e_valores, n_de_cromossomos, mutate=0.0
                 individuo[pos_to_mutate] = 1
 
     return filhos
+
+
+"""
+    Referência principal: https://github.com/FredericoBender/Algoritmo-Genetico-Problema-da-Mochila/tree/main
+"""
