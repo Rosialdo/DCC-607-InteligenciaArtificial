@@ -28,9 +28,9 @@ for i in range(geracoes):
 for indice,dados in enumerate(historico_de_fitness):
    print ("Geracao: ", indice," | Media de valor na mochila: ", dados)
 
-print("\nPeso máximo:",peso_maximo,"g\n\nItens disponíveis:")
+print("\nPeso máximo:",peso_maximo,"Kg\n\nItens disponíveis:")
 for indice,i in enumerate(pesos_e_valores):
-    print("Item ",indice+1,": ",i[0],"g | R$",i[1])
+    print("Item ",indice+1,": ",i[0]," Kg   | R$",i[1])
     
 # Exemplos de boas soluções
 print("\nExemplos de boas soluções: ")
@@ -41,7 +41,7 @@ for i in range(5):
         peso_total += (individuo[indice] * pesos_e_valores[indice][0])
         valor_total += (individuo[indice] * pesos_e_valores[indice][1])
     print("Solução", i + 1, ":")
-    print("   - Peso: ", peso_total, "g")
+    print("   - Peso: ", peso_total, "Kg")
     print("   - Valor: R$", valor_total)
 
 

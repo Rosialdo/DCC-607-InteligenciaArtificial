@@ -100,11 +100,10 @@ Python 3.x (versão usada na criação do programa)
 - Quantidade de cromossomos: 80
 - Quantidade de gerações: 150
 
-![Foto do resultado](Materiais/Foto_Resultado.png)
+![Foto do resultado](materiais/Foto_Resultado.png)
 
-
+<br><br>
 ## Referências
-
 
 
 **Todos os créditos da codificação são do seguinte repositório:**
